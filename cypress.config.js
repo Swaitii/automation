@@ -8,6 +8,6 @@ module.exports = defineConfig({
     },
     chromeWebSecurity:false,
     specPattern : ['cypress/integration/examples/standarduser.js','cypress/integration/examples/lockeduser.js','cypress/integration/examples/problemuser.js']
-    
+    ,chromeWebSecurity:false
   },
 });
